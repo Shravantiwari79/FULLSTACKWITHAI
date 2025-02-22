@@ -4,11 +4,11 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f0f0f0;
+    background-color: rgb(231, 189, 231);
   }
   
   .prompt-box {
-    background-color: white;
+    background-color:#a7aba9;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -23,14 +23,14 @@ body {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #a7aba9;
     border-radius: 3px;
     box-sizing: border-box;
   }
   
   .prompt-box button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #56d3de;
+    color: #0e0c0c;
     padding: 10px 15px;
     border: none;
     border-radius: 3px;
@@ -38,5 +38,13 @@ body {
   }
   
   .prompt-box button:hover {
-    background-color: #45a049;
+    box-shadow: 3px 3px rgb(52, 62, 52);
+    /* background-color:black */
+  }
+  /* .shra{
+   /* height: auto!important; */
+   /* background-color:#4CAF50 !important; */
+  /* } */ 
+  .nave textarea{
+    background-color: #ccc;
   }

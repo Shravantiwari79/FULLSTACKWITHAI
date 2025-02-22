@@ -9,23 +9,25 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
-<body> <div class="row">
-    <div class="col">
-        <h2>Welcome to Chatgpt !</h2> 
-        <h3>How can I help You</h3>
+<body>
+     <div class="row">
+    <div class="col offset-2">
+        <h2>Welcome To Chatgpt !</h2> 
+        <h3>How can I help You  ?</h3>
     </div>
     <form method="POST" action="/information">  
 
         <div class="prompt-box">
-            <label for="prompt-input">Enter your message:</label>
-            <input type="text" id="prompt-input" name="prompt">
+            <label for="prompt-input"></label>
+            <input type="text" id="prompt-input" placeholder="Enter your message" name="prompt">
             <button  >Submit</button>
         </div>
       <form >
-        <div class="form-floating rows-6">
-            <textarea class="form-control"  id="floatingTextarea"><%= finalresult%></textarea>
+        <div class="nave">
+            <textarea class="form-control" id="floatingTextarea"  rows="28" cols="50"><%= finalresult%></textarea>
             <label for="floatingTextarea"></label>
           </div>
         </div> 
+        
 </body>
 </html>
